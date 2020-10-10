@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/popup_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/confirm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/confirm_txt"
+        android:textColor="@color/titleDefault"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/popup_yes_btn"
+            android:layout_width="90dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_yes"
+            android:text="@string/yes_btn_txt"
+            android:textColor="@color/yes_no_btns" />
+
+        <view
+            class="android.support.constraint.Placeholder"
+            id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/popup_no_btn"
+            android:layout_width="90dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_no"
+            android:text="@string/no_btn_txt"
+            android:textColor="@color/yes_no_btns" />
+    </LinearLayout>
+
+</LinearLayout>

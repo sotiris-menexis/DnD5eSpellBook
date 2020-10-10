@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#78210f</color>
+    <color name="colorPrimaryDark">#3b1204</color>
+    <color name="colorAccent">#993e24</color>
+    <color name="textDefault">#b5b4b4</color>
+    <color name="titleDefault">#610303</color>
+    <color name="add_btn">#ea1212</color>
+    <color name="add_btn_highlight">#f94e4e</color>
+    <color name="spellInfoClr">#916c38</color>
+    <color name="del_acc_btn">#cb0000</color>
+    <color name="res_list_btn">#975326</color>
+    <color name="yes_no_btns">#e4e4e4</color>
+    <color name="popup_color">#f7f7f7</color>
+</resources>
